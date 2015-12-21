@@ -24,7 +24,7 @@ public class test extends Okno {
 				Okno okno = new Okno();
 				okno.setTitle("Tytu³");
 				okno.setLocation(200, 200);
-				okno.setSize(700, 500);
+				okno.setSize(700, 700);
 				okno.setVisible(true);
 				
 				
