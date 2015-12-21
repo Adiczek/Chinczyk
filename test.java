@@ -9,6 +9,8 @@ import java.util.Scanner;
 
 public class test extends Okno {
 	
+	
+	
 	public static void wyczysc()
 	{
 	System.out.println("\n\n\n\n\n\n\n\n\n");//dowolna ilosc n
