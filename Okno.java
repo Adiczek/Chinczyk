@@ -70,6 +70,9 @@ public class Okno extends JFrame{
 			panel[d].setBackground(Color.red);
 			panel[PoleGracza1[i]].setBorder(BorderFactory.createLineBorder(Color.black));
 		}
+		
+		//Napis gracz 1
+		
 		panel[41].setAlignmentX(RIGHT_ALIGNMENT);
 		panel[41].add(new JLabel("Gracz"));		
 		
@@ -81,8 +84,11 @@ public class Okno extends JFrame{
 				panel[d].setBackground(Color.blue);
 				panel[PoleGracza2[i]].setBorder(BorderFactory.createLineBorder(Color.black));
 			}
-		panel[41].setAlignmentX(RIGHT_ALIGNMENT);
-		panel[41].add(new JLabel("Gracz"));		
+		
+		//Napisz gracz 2
+		
+		panel[59].setAlignmentX(RIGHT_ALIGNMENT);
+		panel[59].add(new JLabel("Gracz"));		
 		
 		panel[60].add(new JLabel("2"));
 		panel[60].setAlignmentX(LEFT_ALIGNMENT);
@@ -93,22 +99,36 @@ public class Okno extends JFrame{
 				panel[PoleGracza3[i]].setBorder(BorderFactory.createLineBorder(Color.black));
 			}
 		
+		//Napis gracz 3
+		
+		panel[341].setAlignmentX(RIGHT_ALIGNMENT);
+		panel[341].add(new JLabel("Gracz"));		
+		
+		panel[342].add(new JLabel("3"));
+		panel[342].setAlignmentX(LEFT_ALIGNMENT);
+		
+		
+		
 		for(int i=0;i<PoleGracza4.length;i++){
 			int d = PoleGracza4[i];
 				panel[d].setBackground(Color.yellow);
 				panel[PoleGracza4[i]].setBorder(BorderFactory.createLineBorder(Color.black));
 			}
 		
+		//Napisz gracz 4
 		
+				panel[359].setAlignmentX(RIGHT_ALIGNMENT);
+				panel[359].add(new JLabel("Gracz"));		
+				
+				panel[360].add(new JLabel("4"));
+				panel[360].setAlignmentX(LEFT_ALIGNMENT);
+				
+				
 		for(int i=0;i<Trasa.length;i++){
 			panel[Trasa[i]].setBackground(Color.white);
 			panel[Trasa[i]].setBorder(BorderFactory.createLineBorder(Color.black));
 		}
-		panel[41].setAlignmentX(RIGHT_ALIGNMENT);
-		panel[41].add(new JLabel("Gracz"));		
-		
-		panel[42].add(new JLabel("1"));
-		panel[42].setAlignmentX(LEFT_ALIGNMENT);
+	
 		
 		
 		
